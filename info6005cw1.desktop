@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name[en_GB]=info6005cw1
+Exec=/usr/share/applications/info6005cw1
+Name=info6005cw1
+Comment=sp19g08 - INFO6005 Package Management Coursework
+Icon=info
