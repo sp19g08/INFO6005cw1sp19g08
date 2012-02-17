@@ -1,5 +1,11 @@
-info6005cw1 (1.0-1) unstable; urgency=low
+sp19g08newsFeed (v1.0) stable; urgency=high
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  [sukh plaha <sp19g08@soton.ac.uk>]
+  * first commit
+  * adding a second file
+  * changed the read me
+  * uploaded info6005cw1.desktop
+  * uploading the sandbox folder
 
- -- sp19g08 <sp19g08@soton.ac.uk>  Tue, 07 Feb 2012 12:31:41 +0000
+ -- sukh plaha <sp19g08@soton.ac.uk>  Fri, 17 Feb 2012 11:41:31 +0000
+
