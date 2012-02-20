@@ -8,7 +8,7 @@ Homepage: https://github.com/info6005/6005_cw1_2012
 #Vcs-Git: git://git.debian.org/collab-maint/info6005cw1.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/info6005cw1.git;a=summary
 
-Package: info6005cw1
+Package: sp19g08newsfeedv1
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, php
 Description: The web pages allow the user to host BBC News RSS feeds
