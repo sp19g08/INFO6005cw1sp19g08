@@ -11,7 +11,8 @@ Homepage: https://github.com/info6005/6005_cw1_2012
 Package: sp19g08newsfeed
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
-Description: This package will allow you to simply type 'getnews'
+Description: What is sp19g08newsfeed?
+ This package will allow you to simply type 'getnews'
  into terminal to read the latest news from the BBC. The package
  will install four files: index.php, feeds.conf, rss_php.php and 
  the getnews bash file.
