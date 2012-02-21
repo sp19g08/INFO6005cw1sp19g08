@@ -3,6 +3,7 @@
 indexpage = $(CURDIR)/index.php
 feeds = $(CURDIR)/feeds.conf
 rss = $(CURDIR)/rss_php.php
+getnews = $(CURDIR)/getnews
 desktopconf = $(CURDIR)/sp19g08newsfeed.desktop
 
 DEST1 = $(CURDIR)/debian/sp19g08newsfeed/usr/bin/
@@ -27,7 +28,7 @@ clean:
 
 	dh_clean
 
-install: build $(indexpage) $(feeds) $(rss) $(desktopconf)
+install: build $(indexpage) $(feeds) $(rss) $(getnews) $(desktopconf)
 	dh_testdir
 	dh_testroot
 	dh_prep
@@ -38,6 +39,7 @@ install: build $(indexpage) $(feeds) $(rss) $(desktopconf)
 	install -m 777 $(indexpage) $(DEST1)
 	install -m 777 $(feeds) $(DEST1)
 	install -m 777 $(rss) $(DEST1)
+	install -m 777 $(getnews) $(DEST1)
 	install -m 777 $(desktopconf) $(DEST1)
 
 # Build architecture-independent files here.
