@@ -1,6 +1,6 @@
 info6005cw1 for Debian
 ----------------------
 
-<possible notes regarding this package - if none, delete this file>
+This package allows the user to get the latest from the BBC news RSS feed using the command 'getnews'
 
  -- sp19g08 <sp19g08@soton.ac.uk>  Tue, 07 Feb 2012 12:31:41 +0000
